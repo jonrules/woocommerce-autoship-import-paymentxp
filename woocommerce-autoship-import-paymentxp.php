@@ -38,7 +38,7 @@ if ( is_plugin_active( 'woocommerce-autoship/woocommerce-autoship.php' ) ) {
 	function wc_autoship_import_paymentxp_settings( $settings ) {
 		$settings[] = array(
 			'title' => __( 'Import PaymentXP', 'wc-autoship-import-paymentxp' ),
-			'desc' => __( 'Import autoship schedules for PaymentXP customers', 'wc-autoship-import-paymentxp' ),
+			'desc' => __( 'Import autoship schedules for PaymentXP customers.', 'wc-autoship-import-paymentxp' ),
 			'desc_tip' => false,
 			'type' => 'title',
 			'id' => 'wc_autoship_import_paymentxp_title'
