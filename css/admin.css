@@ -1,3 +1,23 @@
+#wc_autoship_import_paymentxp_file_drop {
+	width: 300px;
+}
+
 #wc_autoship_import_paymentxp_file_result {
 	display: none;
+}
+
+.wc-autoship-import-paymentxp-row {
+	margin-bottom: 20px;
+}
+
+.wc-autoship-import-paymentxp-row-count {
+	border-bottom: 1px solid gray;
+}
+
+.wc-autoship-import-paymentxp-field {
+	margin-right: 5px;
+}
+
+.wc-autoship-import-paymentxp-error {
+	color: red;
 }
