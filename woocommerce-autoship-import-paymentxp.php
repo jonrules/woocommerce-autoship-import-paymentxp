@@ -3,7 +3,7 @@
 Plugin Name: WC Autoship Import PaymentXP
 Plugin URI: http://wooautoship.com
 Description: Import autoship schedules for PaymentXP customers
-Version: 1.0.0
+Version: 1.0.1
 Author: Patterns in the Cloud
 Author URI: http://patternsinthecloud.com
 License: Single-site
@@ -50,7 +50,7 @@ if ( is_plugin_active( 'woocommerce-autoship/woocommerce-autoship.php' ) ) {
 		$settings[] = array(
 			'name' => __( 'Import File', 'wc-autoship-import-paymentxp' ),
 			'desc' => __( 
-			'The Autoship CSV file to import. Required fields: email, autoship frequency, next order date, product sku, item quantity, username, password, pxp_customer_id, pmt_desc, display_name, user_nicename, first_name, last_name, phone, billing_phone, billing_address, billing_address_1, billing_address_2, billing_city, billing_state, billing_zip, billing_postcode, billing_country, billing_last_name, billing_first_name, shipping_address_1, shipping_city, shipping_state, shipping_postcode, shipping_country, shipping_last_name, shipping_first_name, shipping_method, role, affwp_lc_email, affwp_lc_affiliate_id',
+			'The Autoship CSV file to import. Required fields: email, autoship frequency, next order date, product sku, item quantity, username, password, pxp_customer_id, pmt_desc, display_name, user_nicename, first_name, last_name, phone, billing_phone, billing_address, billing_address_1, billing_address_2, billing_city, billing_state, billing_zip, billing_postcode, billing_country, billing_last_name, billing_first_name, shipping_address_1, shipping_address_2, shipping_city, shipping_state, shipping_postcode, shipping_country, shipping_last_name, shipping_first_name, shipping_method, role, affwp_lc_email, affwp_lc_affiliate_id',
 				'wc-autoship-import-paymentxp'
 			),
 			'desc_tip' => true,
@@ -114,7 +114,7 @@ if ( is_plugin_active( 'woocommerce-autoship/woocommerce-autoship.php' ) ) {
 			'first_name', 'last_name', 'phone', 'billing_phone', 'billing_address',
 			'billing_address_1', 'billing_address_2', 'billing_city', 'billing_state',
 			'billing_zip', 'billing_postcode', 'billing_country', 'billing_last_name',
-			'billing_first_name', 'shipping_address_1', 'shipping_city', 'shipping_state',
+			'billing_first_name', 'shipping_address_1', 'shipping_address_2', 'shipping_city', 'shipping_state',
 			'shipping_postcode', 'shipping_country', 'shipping_last_name', 'shipping_first_name',
 			'shipping_method', 'role', 'affwp_lc_email', 'affwp_lc_affiliate_id'
 		);
@@ -122,7 +122,7 @@ if ( is_plugin_active( 'woocommerce-autoship/woocommerce-autoship.php' ) ) {
 			'phone', 'billing_phone', 'billing_address',
 			'billing_address_1', 'billing_address_2', 'billing_city', 'billing_state',
 			'billing_zip', 'billing_postcode', 'billing_country', 'billing_last_name',
-			'billing_first_name', 'shipping_address_1', 'shipping_city', 'shipping_state',
+			'billing_first_name', 'shipping_address_1', 'shipping_address_2', 'shipping_city', 'shipping_state',
 			'shipping_postcode', 'shipping_country', 'shipping_last_name', 'shipping_first_name',
 			'affwp_lc_email', 'affwp_lc_affiliate_id'
 		);
